@@ -18,7 +18,7 @@ class MyHeader extends HTMLElement {
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="hire-employee.html">Hire employee</a></li>
                   <li><a class="dropdown-item" href="global-contracter.html">Global Contractor</a></li>
-                  <li><a class="dropdown-item" href="global-managed-payroll.html">Global Manages Payroll</a></li>
+                  <li><a class="dropdown-item" href="global-payroll.html">Global Manages Payroll</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
