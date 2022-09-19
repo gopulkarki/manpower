@@ -21,6 +21,7 @@ class MyHeader extends HTMLElement {
                   <li><a class="dropdown-item" href="global-payroll.html">Global Manages Payroll</a></li>
                 </ul>
               </li>
+              <!------
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Solutions
@@ -38,7 +39,7 @@ class MyHeader extends HTMLElement {
                   <li><a class="dropdown-item" href="#">Enterprise</a></li>
                 
                 </ul>
-              </li>
+              </li> -------->
            
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -69,7 +70,7 @@ class MyHeader extends HTMLElement {
                 <a class="nav-link" href="#">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="index.html#pricing">Pricing</a>
               </li>
             </ul>
           </div>
