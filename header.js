@@ -17,10 +17,10 @@ class MyHeader extends HTMLElement {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="hire-employee.html">Hire employee</a></li>
-                  <li><a class="dropdown-item" href="#">Global Employment</a></li>
-                  <li><a class="dropdown-item" href="#">Global Contractor</a></li>
-                  <li><a class="dropdown-item" href="#">Contracter Conversion</a></li>
-                  <li><a class="dropdown-item" href="#">Global Manages Payroll</a></li>
+                  <li><a class="dropdown-item" href="global-employment.html">Global Employment</a></li>
+                  <li><a class="dropdown-item" href="global-contracter.html">Global Contractor</a></li>
+                  <li><a class="dropdown-item" href="contracter-conversion.html">Contracter Conversion</a></li>
+                  <li><a class="dropdown-item" href="global-mamaged-payroll.html">Global Manages Payroll</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
