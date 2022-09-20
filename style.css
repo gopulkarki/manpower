@@ -126,6 +126,10 @@ footer a {
   background:#6b089c;
 }
 
+#hero span{
+  color: #6b089c;
+}
+
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -203,6 +207,26 @@ footer a {
   border: 1px solid #6b089c;
   margin-bottom:1rem;
  }
+ #hero .form-control{
+  border: 1px solid #6b089c;
+  background:#fff;
+  color: #fff !important;
+ } 
+ #hero .form-control::placeholder {
+  color:#6b089c;
+}
+#hero .form{
+  background:linear-gradient(-90deg,rgb(121, 22, 167),rgb(116, 20, 180),rgb(178, 84, 221)) ;
+  box-shadow: 20px 50px 30px solid white;
+}
+
+
+@media (max-width:768px) {
+  #hero p{
+    color:#6b089c !important;
+  }
+  
+}
 
  
  
