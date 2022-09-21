@@ -137,7 +137,7 @@ footer a {
 
 @media (min-width: 1200px) {
   #hero {
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
   }
 }
  
@@ -293,7 +293,7 @@ footer a {
   font-size: 1rem;
   color: #fff;
   font-weight: 800;
-  border-radius: 20px;
+  border-radius:90px 90px 0px 0px;
 
 
  }
@@ -395,7 +395,7 @@ footer a {
 
 .pricing h4 {
   font-size: 36px;
-  color: #a246f9;
+  color:#6b089c;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
@@ -427,7 +427,7 @@ footer a {
 }
 
 .pricing ul i {
-  color: #a246f9;
+  color:#6b089c;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -445,7 +445,7 @@ footer a {
 }
 
 .pricing .btn-buy {
-  background: #7b27d8;
+  background:#6b089c;
   display: inline-block;
   padding: 10px 35px;
   border-radius: 4px;
@@ -460,12 +460,12 @@ footer a {
 }
 
 .pricing .btn-buy:hover {
-  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(180deg,#6b089c 0%, #7b27d8 100%);
 }
 
 .pricing .featured h3 {
   color: #fff;
-  background: #a246f9;
+  background: #6b089c;
 }
 
 .pricing .advanced {
@@ -477,7 +477,7 @@ footer a {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background:#a246f9 ;
+  background:#6b089c ;
   color: #fff;
 }
  
@@ -505,8 +505,8 @@ footer a {
 #footer {
     color: #fff;
     font-size: 14px;
-    background:linear-gradient(-90deg,rgb(66, 2, 96),rgb(141, 48, 202),rgb(178, 84, 221)) ;
-    background-size: cover;
+    background:linear-gradient(-90deg,rgb(55, 10, 75),rgb(90, 46, 120),rgb(151, 99, 174)) ;
+        background-size: cover;
   }
   
   #footer .footer-top {
