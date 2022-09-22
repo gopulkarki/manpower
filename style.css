@@ -293,9 +293,13 @@ footer a {
   font-size: 1rem;
   color: #fff;
   font-weight: 800;
- 
-
-
+ }
+ .about .card h2{
+  font-weight: 900;
+  background: #440a6b;
+border-radius: 10px;
+  color: #fff;
+  text-align: center;
  }
  
 
@@ -478,9 +482,6 @@ footer a {
   background:#6b089c ;
   color: #fff;
 }
- 
-
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -490,13 +491,6 @@ footer a {
   right: 20px;
   display: none;
 }
-
-
-
-
-
- 
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
