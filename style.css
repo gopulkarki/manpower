@@ -488,7 +488,7 @@ border-radius: 10px;
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 100px;
   display: none;
 }
 /*--------------------------------------------------------------
