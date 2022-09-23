@@ -11,8 +11,8 @@ class MyFooter extends HTMLElement {
                   <div class="footer-info">
                     <h3>Address</h3>
                     <p>
-                      A108 Adam Street <br>
-                      NY 535022, USA<br><br>
+                      Sifal,kathmandu <br>
+                      Nepal<br><br>
                       <strong>Phone:</strong> +1 5589 55488 55<br>
                       <strong>Email:</strong> info@example.com<br>
                     </p>
