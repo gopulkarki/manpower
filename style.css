@@ -91,10 +91,7 @@ footer a {
   position: relative;
   object-fit: cover;
   object-fit: fill;
-
- 
 }
-
 /* #hero .container,
 #hero .container-fluid {
   padding-top: 84px;
@@ -135,11 +132,11 @@ footer a {
   color: #6b089c;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   #hero {
-    background-attachment: fixed;
+     background-attachment: fixed; 
   }
-}
+}  */
  
  
 @media (max-width: 991px) {
@@ -221,7 +218,7 @@ footer a {
    
  }
  #hero .form{
-  background:linear-gradient(-90deg,rgb(121, 22, 167),rgb(116, 20, 180),rgb(178, 84, 221)) ;
+  background:linear-gradient(-180deg,rgb(121, 22, 167),rgb(116, 20, 180),rgb(178, 84, 221)) ;
  color: #fff;
 }
  
@@ -238,7 +235,7 @@ footer a {
   padding:6rem 0; 
 }
 .about {
-  padding:3rem 0;
+  padding:2rem 0;
 }
 
  
@@ -288,19 +285,110 @@ footer a {
   top: 12px;
 }
  .garochha{
-  background:linear-gradient(-90deg,rgb(55, 10, 75),rgb(90, 46, 120),rgb(151, 99, 174)) ;
+  background:linear-gradient(-90deg,#ffffff,rgb(250, 246, 252),rgb(180, 163, 193)) ;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   line-height:2rem;
   font-size: 1rem;
-  color: #fff;
+  font-weight: 800;
+  /* color:#fff; */
+ }
+ #more {display: none;}
+ #myBtn{
+  text-decoration: none;
+ border: none;
+ background: none;
+  color: rgb(5, 201, 80);
   font-weight: 800;
  }
- .about .card h2{
+
+ .main-title h2{
+  padding-top:2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  color: #3c0657;
+ }
+ .card h2{
+  font-size:1.3rem;
   font-weight: 900;
-  background: #440a6b;
 border-radius: 10px;
-  color: #fff;
+  color:#4d1c66;
   text-align: center;
  }
+ .services .card img{
+  width:250px !important;
+ }
+
+ /* how do we worK start */
+ 
+  .card img{
+  width: 100px;
+  height:auto;
+  margin:50px 0 10px 10px;
+  /* background:#3c0657; */
+  display: flex;
+  object-fit: cover;
+  border-radius: 50%;
+
+ }
+ .card{
+  margin:1rem;
+  border: 1px solid #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+ }
+
+ /* faqs section css  */
+ .faq .accordion .accordion-item .accordion-header h2{
+  font-size:1.3rem;
+  font-weight: 900;
+  border-radius: 10px;
+  color:#4d1c66;
+  text-align: center;
+ }
+/* contact us css starting  */
+
+ .contact .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+  background: #fff;
+}
+
+.contact .info-box i {
+  font-size: 32px;
+  color:#803da2;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #2c4964;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.contact button[type=submit] {
+  background: #64187f;
+  border: 0;
+  padding:8px 18px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+  
+}
+ /* contact us css end  */
  
 
 /*--------------------------------------------------------------
@@ -360,6 +448,8 @@ border-radius: 10px;
   text-align: center;
   font-weight: 800;
 }
+
+
 
 /*--------------------------------------------------------------
 # Pricing
@@ -495,7 +585,7 @@ border-radius: 10px;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #3f0671;
+  background: #632e78;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -504,10 +594,9 @@ border-radius: 10px;
 #footer .footer-top {
   padding: 60px 0 30px 0;
 }
-
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #4d0785;
+  background: #552f75;
   color: #fff;
   border-top: 4px solid #6b089c;
   text-align: center;
