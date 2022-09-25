@@ -332,7 +332,7 @@ border-radius: 10px;
   color:#000;
   font-weight: bold;
   transform: translate(-50%, -50%);
-  border: 1px solid #fff;
+  /* border: 2px solid #fff; */
 }
 
  /* how do we worK start */
