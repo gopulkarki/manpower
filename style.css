@@ -355,12 +355,9 @@ border-radius: 10px;
  }
 
  /* faqs section css  */
- .faq .accordion .accordion-item .accordion-header h2{
-  font-size:1.3rem;
+ .accordion-button{
+  color: #3a094b;
   font-weight: 900;
-  border-radius: 10px;
-  color:#4d1c66;
-  text-align: center;
  }
 /* contact us css starting  */
 
