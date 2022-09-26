@@ -17,61 +17,25 @@ class MyHeader extends HTMLElement {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="hire-employee.html">Hire employee</a></li>
-                  <li><a class="dropdown-item" href="global-contracter.html">Contract And Interim Solutions </a></li>
-                  <li><a class="dropdown-item" href="global-payroll.html">Global Manages Payroll</a></li>
+                  <li><a class="dropdown-item" href="contract-and-interim-solution.html">Contract And Interim Solutions </a></li>
+                  <li><a class="dropdown-item" href="global-manages-payroll.html">Global Manages Payroll</a></li>
                 </ul>
               </li>
-              <!------
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Solutions
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                 
-                  <li><a class="dropdown-item" href="#">Hire Complaintly</a></li>
-                  <li><a class="dropdown-item" href="#">Make Easy Payments</a></li>
-    
-                  <li><a class="dropdown-item" href="#">Finance Team</a></li>
-                  <li><a class="dropdown-item" href="#">Legal Team</a></li>
-                  <li><a class="dropdown-item" href="#">Hiring managers</a></li>
-    
-                  <li><a class="dropdown-item" href="#">Startup</a></li>
-                  <li><a class="dropdown-item" href="#">Enterprise</a></li>
-                
-                </ul>
-              </li> -------->
-           
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Requirement
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Hire employee</a></li>
-                  <li><a class="dropdown-item" href="#">Run Global Payroll</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             About Us
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Hire employes</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Partner Program
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Compliance</a></li>
-                </ul>
-              </li>
+            
+              <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+            
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html#pricing">Pricing</a>
-              </li>
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+         
             </ul>
           </div>
         </div>
