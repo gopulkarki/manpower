@@ -49,7 +49,7 @@ class MyFooter extends HTMLElement {
       </section>
       
       
-      <footer class="footer p-2">
+      <footer class="footer p-3">
         <div class="container">
            <div class="row">
               <div class="col-md-12">

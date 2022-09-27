@@ -18,7 +18,7 @@ class MyHeader extends HTMLElement {
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="hire-employee.html">Hire employee</a></li>
                   <li><a class="dropdown-item" href="hire-employee.html#contractor">Contract And Interim Solutions </a></li>
-                  <li><a class="dropdown-item" href="global-project-solution">Project Solution</a></li>
+                  <li><a class="dropdown-item" href="hire-employee.html#project-solution">Project Solution</a></li>
                 </ul>
               </li>
             
@@ -26,11 +26,11 @@ class MyHeader extends HTMLElement {
               <a class="nav-link" href="pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
             
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="blog.html">Blog</a>
               </li>
               <li class="nav-item">
               <a class="nav-link" href="#contact-us">Contact</a>
