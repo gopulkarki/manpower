@@ -371,10 +371,13 @@ border-radius: 10px;
 
 .contact .info-box p {
   padding: 0;
-  line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
   text-align: center;
+}
+.contact .detail{
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+
 }
 .contact button[type=submit] {
   background: #64187f;
@@ -513,7 +516,7 @@ border-radius: 10px;
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
-  right: 100px;
+  left:20px;
   display: none;
 }
 /*--------------------------------------------------------------
@@ -532,12 +535,13 @@ border-radius: 10px;
   text-align: center;
  }
  .top-footer .social-media{
-  text-align: center;
+ text-align:center;
  }
  .top-footer .social-media a{
   margin:0.4rem;
   color: #fff;
-  font-size:1.3rem;
+  font-size:1rem;
+  text-decoration: none;
  }
  .top-footer .social-media .twitter{
   color: #1982e4;
@@ -554,6 +558,7 @@ border-radius: 10px;
  .top-footer .policy {
   color: #fff;
   text-decoration: none;
+  margin: 1rem;
  }
  .top-footer .policy:hover{
   color:rgb(77, 237, 77);

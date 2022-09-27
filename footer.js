@@ -5,9 +5,9 @@ class MyFooter extends HTMLElement {
 
         <section>
         <div class="container-fluid top-footer">
-           <div class="container p-3">
-           <div class="row">
-          
+           <div class="container">
+           <div class="row pt-3">
+        
            <div class="col-md-12 d-none d-md-block d-lg-block useful-link">
               <ul>
                  <li>Hire Employee</li>
@@ -31,18 +31,22 @@ class MyFooter extends HTMLElement {
                  <li>Global Manges Payroll</li>
               </ul>
            </div> 
-          
-           <div class="col-lg-12 social-media">
-           <p class="text-center text-white">Follow Us On</p>
-              <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
-           </div>
-           <div class="col-md-12 text-center pt-2">
+
+              
+           <div class="col-md-12 text-center">
               <a href="#" class="policy" >Privacy Policy</a><br>
               <a href="#" class="policy"> Terms & Condition</a>
            </div>
+
+           <div class="col-lg-12 social-media pt-3 pb-3">
+           <a href="#" >Follow us on:</a>
+           <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+           <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+           <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+           <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+          
+        
            </div>
         </div>
         </div>
