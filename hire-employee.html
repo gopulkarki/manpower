@@ -11,25 +11,12 @@
    <body>
       <script src="header.js"></script>
       <my-header></my-header>
-      <main id="main">
-         <!-- ======= Breadcrumbs ======= -->
-         <section class="breadcrumbs">
-            <div class="container">
-               <div class="d-flex justify-content-between align-items-center">
-                  <h2>Hire Employee</h2>
-                  <ol class="sticky-top">
-                     <li><a href="index.html">Home</a></li>
-                     <li>Solution</li>
-                     <li>Requirement</li>
-                  </ol>
-               </div>
-            </div>
-         </section>
-         <!-- End Breadcrumbs -->
-      </main>
-      <!-- End #main -->
+   
       <section >
-         <div class="container pb-0" id="aboutinner">
+         <div class="container pb-0">
+            <div class="main-title">
+               <h2>Hire Employee</h2>
+            </div>
             <div class="row">
                <div class="col-md-12">
                   <p>“Website name” provides you skilled professionals from global pool for remote full time employment. 
@@ -74,10 +61,10 @@
       <section class="about" id="about">
          <div class="container">
             <div class="row">
-               <div class="col-md-6">
+               <div class="col-md-4">
                   <img src="images/Web search-pana.png" class="img-fluid"  height="200" width="400" alt="">
                </div>
-               <div class="col-md-6 content">
+               <div class="col-md-8 content">
                   <article>
                      <h2>Quick and Affordable</h2>
                      <p>
@@ -93,6 +80,114 @@
             </div>
          </div>
       </section>
+   <!-- ======= About Section ======= -->
+      <section id="contractor" >
+         <div class="container">
+            <div class="main-title">
+               <h2>Contractor And Interim Solution</h2>
+            </div>
+            <div class="row">
+              
+               <div class="col-md-12">
+                 
+                  <p>“Website name” is an expert contract staffing company that offers contract staffing services for its clients globally. 
+                     We provide employers cost effective and efficient employees that are able to get the job done. Demand for contractor 
+                     staffing is increasing nowadays because companies don’t want to increase their liability of large manpower. </p>
+                </div>
+            </div>
+         </div>
+      </section>
+   
+      <section  class="about pt-0">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 col-lg-6 order-1 order-md-2 order-lg-2">
+                  <img src="images/Hiring-rafiki.png" class="img-fluid"height="200" width="400" alt="">
+               </div>
+               <div class="col-md-6 col-lg-6 pt-4 pt-lg-0 order-2 order-md-1 order-lg-1 content">
+                  <article>
+                    
+                     <p>
+                        It’s not always easy to estimate when you need talents to hire. Workloads fluctuations, employees may get promoted or 
+                        move into other areas, deadlines, unexpected departures leaves a critical opening that must be filled fast. These issues 
+                        create vacancies in the company that needs to be filled as soon as possible. You can meet your unexpected challenges 
+                        seamlessly and cost effectively with these customizable options. Contracting a professional, who is fully vetted and 
+                        prepared to hit the ground running is efficient and can save you thousands of dollars. It also gives you the opportunity
+                         to try out a new professional on interim or short term before making the decision on a new permanent position.
+                     </p>
+                     <h2>Gives you options in:</h2>
+                     <ol>
+                        <li>  Adapt workforce to workload.</li>
+                        <li> Keep up with unpredictable demands.</li>
+                        <li> Access candidates with specialized skills.</li>
+                        <li>Completion of projects on time.</li>
+                        <li>Growth periods.</li>
+                        <li>Organizational changes.</li>
+                     </ol>
+                  </article>
+                  <a href="#" class="read-more">Read More</a>
+               </div>
+            </div>
+         </div>
+      </section>
+ 
+      <!-- End About Section -->
+        <!-- contact us section start -->
+        <section id="contact-us" class="contact pb-5">
+         <div class="container">
+            <div class="main-title">
+               <h2>CONTACT US</h2>
+            </div>
+            <div class="row">
+               <div class="col-md-12 col-lg-6">
+                  <div class="row">
+                     <div class=" col-md-12 col-lg-12">
+                        <div class="info-box mb-4">
+                           <i class="fa-solid fa-location-dot"></i>
+                           <h3>Our Address</h3>
+                           <p>Sifal, Kathmandu, Nepal</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="info-box  mb-4">
+                           <i class="fa-solid fa-envelope"></i>
+                           <h3>Email Us</h3>
+                           <p>contact@example.com</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="info-box  mb-4">
+                           <i class="fa-solid fa-phone"></i>
+                           <h3>Call Us</h3>
+                           <p>+977-23456789</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5">
+                  <h2 class="text-center font-weight-bold">Get A Service</h2>
+                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                     <div class="row">
+                        <div class="col-md-6 form-group">
+                           <input type="text" name="name" class="form-control" id="name" placeholder="Name*" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                           <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required>
+                        </div>
+                     </div>
+                     <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Company Name" required>
+                     </div>
+                     <div class="form-group mt-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                     </div>
+                     <div class="text-center mt-3"><button type="submit">Send</button></div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Contact Section -->
       <!-- ======= Footer ======= -->
       <script src="footer.js"></script>
       <my-footer></my-footer>
