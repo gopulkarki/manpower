@@ -32,12 +32,7 @@ h6{
   font-size: clamp(1rem,2.5vw,1.2rem);
 }
  
-
-footer p,
-footer li,
-footer a {
-  font-size: clamp(0.9rem,2.5vw,1rem);
-}
+ 
 /* top nav bar css start */
  
 .fa-bars{
@@ -46,7 +41,7 @@ footer a {
 #top-nav .navbar{
   background:linear-gradient(90deg,rgb(55, 10, 75),rgb(90, 46, 120),rgb(151, 99, 174)) ;
     font-size:0.9rem;
-    font-weight:800;
+    font-weight:700;
    padding:0.5rem;
  
 }
@@ -84,7 +79,8 @@ footer a {
  #hero {
   width: 100%;
   height:90vh;
-  background-image:url("./images/ManPower.svg");
+  /* background-image:url("./images/ManPower.svg"); */
+  background-image: url("./images/2.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -95,7 +91,7 @@ footer a {
 #hero h1 {
   margin: 0;
   font-size:4rem;
-  font-weight: 900;
+  font-weight:800;
   line-height:5rem;
   color: #6b089c;
   
@@ -269,8 +265,9 @@ footer a {
   right: 20px;
   top: 12px;
 }
- .garochha{
-  background:linear-gradient(-90deg,#ffffff,rgb(250, 246, 252),rgb(180, 163, 193)) ;
+ .about-main{
+  /* background:linear-gradient(-90deg,#ffffff,rgb(250, 246, 252),rgb(208, 187, 218)) ; */
+  background-color:#efeaef;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   line-height:2rem;
   font-size:1rem;
@@ -305,20 +302,16 @@ border-radius: 10px;
  }
 
 
- /* we covers css */
- .we-cover{
-  position: relative;
-  text-align: center;
-}
-.we-cover h3 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color:#000;
-  font-weight: bold;
-  transform: translate(-50%, -50%);
-}
-
+ /* industries we covers css */
+ .industries{
+  background-color:  rgb(248, 246, 244);;
+  /* border:2px solid #3c0657; */
+ }
+  .industries h3{
+font-size:1.2rem;
+font-weight:600;
+text-align: center;
+  }
  /* how do we worK start */
  .how .card .card-body .card-title{
   text-align: left;
@@ -518,30 +511,50 @@ border-radius: 10px;
   bottom: 20px;
   left:20px;
   display: none;
+  border-radius: 50%;
+  background: #851ca8;
+  border: 1px solid #851ca8 ;
 }
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.top-footer{
-  background:linear-gradient(90deg,rgb(55, 10, 75),rgb(90, 46, 120),rgb(151, 99, 174)) ;
-
-}
- .top-footer ul li{
-  display: inline;
-  color: #fff; 
-  margin:1rem;
+ 
+ .top-footer{
+  background-color:  rgb(248, 246, 244);
+  /* background: #edeef1; */
+  padding-top:1.5rem;
  }
- .top-footer .useful-link{
+.top-footer .address h2{
+  font-weight: 700;
   text-align: center;
- }
- .top-footer .social-media{
- text-align:center;
- }
- .top-footer .social-media a{
+  
+}
+.top-footer .address p{
+  text-align: center;
+}
+.top-footer .social-media p{
+  text-align: center;
+  font-weight: 600;
+}
+.top-footer .useful-link h3{
+  font-size:1rem;
+font-weight: 600;
+text-align: center;
+}
+.top-footer .useful-link ul li{
+text-align:center;
+list-style: none;
+font-size: 0.9rem;
+margin: 0.4rem;
+}
+ 
+.top-footer .social-media{
+  text-align: center;
+}
+.top-footer .social-media a{
   margin:0.4rem;
   color: #fff;
   font-size:1rem;
-  text-decoration: none;
  }
  .top-footer .social-media .twitter{
   color: #1982e4;
@@ -555,14 +568,6 @@ border-radius: 10px;
  .top-footer .social-media .linkedin{
   color:#0A66C2;
  }
- .top-footer .policy {
-  color: #fff;
-  text-decoration: none;
-  margin: 1rem;
- }
- .top-footer .policy:hover{
-  color:rgb(77, 237, 77);
- }
  .footer{
   background:linear-gradient(90deg,rgb(55, 10, 75),rgb(90, 46, 120),rgb(151, 99, 174)) ;
  }
@@ -570,5 +575,6 @@ border-radius: 10px;
   text-align: center;
   color: #fff;
  }
+
  
  

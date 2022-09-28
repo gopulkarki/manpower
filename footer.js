@@ -2,73 +2,58 @@ class MyFooter extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
         <!-- ======= Footer ======= -->
-
-        <section>
-        <div class="container-fluid top-footer">
-           <div class="container">
-           <div class="row pt-3">
-        
-           <div class="col-md-12 d-none d-md-block d-lg-block useful-link">
-              <ul>
-                 <li>Hire Employee</li>
-                 <li>Contract & Interim Solution</li>
-                 <li>Project Solutions</li>
-              </ul>
-           </div> 
-           
-           <div class="col-sm-12  d-md-none  d-lg-none useful-link">
-              <ul>
-                 <li>Hire Employee</li>
-              </ul>
-           </div> 
-           <div class="col-sm-12 d-md-none  d-lg-none useful-link">
-              <ul>
-                 <li>Contract & Interim Solution</li>
-              </ul>
-           </div> 
-           <div class="col-sm-12 d-md-none  d-lg-none useful-link">
-              <ul>
-                 <li>Global Manges Payroll</li>
-              </ul>
-           </div> 
-
-              
-           <div class="col-md-12 text-center">
-              <a href="#" class="policy" >Privacy Policy</a><br>
-              <a href="#" class="policy"> Terms & Condition</a>
-           </div>
-
-           <div class="col-lg-12 social-media pt-3 pb-3">
-           <a href="#" >Follow us on:</a>
-           <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
-           <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
-           <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
-           <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-          
-        
-           </div>
-        </div>
-        </div>
-      </section>
-      
-      
-      <footer class="footer p-3">
+        <section class="top-footer">
+     
         <div class="container">
            <div class="row">
-              <div class="col-md-12">
-           <div class="copyright">
-             &copy; Copyright <strong><span>CubixTech</span></strong>. All Rights Reserved
+              <div class="col-md-6 col-lg-2 address order-1  ">
+                 <h2>Address</h2>
+                 <p>Sifal<br>Kathmandu, Nepal<br>
+                 Email: contact@gmail.com</p>
+              </div>
+              <div class="col-md-6 col-lg-5 order-2 useful-link  ">
+                 <h3>Useful Links</h3>
+                 <ul style="padding-left:0;">
+                    <li>Hire employee</li>
+                    <li>Contractor & Interim Solution</li>
+                    <li>Project Solution</li>
+                 </ul>
+              </div>
+              <div class="col-md-6 col-lg-3 order-3 useful-link  ">
+                 <h3>Useful Links</h3>
+                 <ul style="padding-left:0;">
+                    <li>Privacy Policy</li>
+                    <li>Terms & Condition</li>
+                 </ul>
+              </div>
+              <div class="col-md-6 col-lg-2 social-media order-4  ">
+                 <p class="mb-0"> Follow us on: </p>
+                 <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="#" class="facebook"> <i class="fa-brands fa-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
            </div>
         </div>
-        <div class="col-md-12">
-           <div class="credits">
-             Designed by <a href="">CubixTech</a>
+  
+  </section>
+  <footer class="footer pt-4 pb-4">
+     <div class="container">
+        <div class="row">
+           <div class="col-md-12">
+              <div class="copyright">
+                 &copy;2022 Copyright <strong><span>CubixTech</span></strong>. All Rights Reserved
+              </div>
+           </div>
+           <div class="col-md-12">
+              <div class="credits">
+                 Designed by <a href="">CubixTech</a>
+              </div>
            </div>
         </div>
-         </div>
-        </div>
-      </footer>
+     </div>
+  </footer>
+    
        <!-- End Footer -->
         `
     }
