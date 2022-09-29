@@ -333,7 +333,7 @@ color:#4d1c66;
 
  }
  .card{
-  margin:1rem;
+  /* margin:1rem; */
   border: 1px solid #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
