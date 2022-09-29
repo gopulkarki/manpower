@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement {
       <header id="top-nav" class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="50" width="50" alt=""></a>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="50" width="50" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
           </button>
