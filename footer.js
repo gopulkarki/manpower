@@ -14,6 +14,7 @@ class MyFooter extends HTMLElement {
               <div class="col-md-6 col-lg-5 order-2 useful-link  ">
                  <h3>Useful Links</h3>
                  <ul style="padding-left:0;">
+                    <li>About</li>
                     <li>Hire employee</li>
                     <li>Contractor & Interim Solution</li>
                     <li>Project Solution</li>
@@ -22,6 +23,8 @@ class MyFooter extends HTMLElement {
               <div class="col-md-6 col-lg-3 order-3 useful-link  ">
                  <h3>Useful Links</h3>
                  <ul style="padding-left:0;">
+                    <li>Blog</li>
+                    <li>Pricing</li>
                     <li>Privacy Policy</li>
                     <li>Terms & Condition</li>
                  </ul>
@@ -35,7 +38,6 @@ class MyFooter extends HTMLElement {
               </div>
            </div>
         </div>
-  
   </section>
   <footer class="footer pt-4 pb-4">
      <div class="container">

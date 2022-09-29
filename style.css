@@ -141,6 +141,7 @@ h6{
 
 @media (max-width: 768px) {
   #hero h1 {
+   
     font-size:2.5rem;
     font-weight: 800;
     line-height: 3rem;
@@ -148,6 +149,7 @@ h6{
   }
 
   #hero h2 {
+   
     font-size: 1.1rem;
     line-height: 24px;
   }
@@ -271,15 +273,14 @@ h6{
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   line-height:2rem;
   font-size:1rem;
-  font-weight: 800;
  }
- #more {display: none;}
+  
  #myBtn{
   text-decoration: none;
  border: none;
  background: none;
   color: rgb(5, 201, 80);
-  font-weight: 800;
+  font-weight:500;
  }
 
  .main-title h2{
@@ -291,8 +292,8 @@ h6{
   color: #3c0657;
  }
  .card h2{
-  font-size:1.3rem;
-  font-weight: 900;
+  font-size:1.2rem;
+  font-weight:700;
 border-radius: 10px;
   color:#4d1c66;
   text-align: center;
@@ -309,8 +310,12 @@ border-radius: 10px;
  }
   .industries h3{
 font-size:1.2rem;
-font-weight:600;
+font-weight:700;
 text-align: center;
+color:#4d1c66;
+  }
+  .industries img{
+    border-radius: 50%;
   }
  /* how do we worK start */
  .how .card .card-body .card-title{
@@ -336,7 +341,7 @@ text-align: center;
  /* faqs section css  */
  .accordion-button{
   color: #3a094b;
-  font-weight: 900;
+  font-weight:600;
  }
 /* contact us css starting  */
 
@@ -529,6 +534,7 @@ text-align: center;
   text-align: center;
   
 }
+ 
 .top-footer .address p{
   text-align: center;
 }
